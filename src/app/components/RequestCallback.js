@@ -143,7 +143,6 @@ function RequestCallback() {
 
       {/* Office Cards */}
       <div className="w-full md:w-1/2 space-y-6">
-        
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
@@ -155,25 +154,23 @@ function RequestCallback() {
             Suite 1500, 4 Robert Speck Pkwy, Mississauga, Ontario, Canada, L4Z
             1S1
           </p>
-          <div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            className="mt-4 flex items-center justify-between"
-          >
+          <div className="mt-4 flex items-center justify-between">
             <div className="space-y-2">
               <p className="text-sm text-blue-600">+1-905-783-7708</p>
               <p className="text-sm text-blue-600">info@admitspot.com</p>
             </div>
-            <img
-              src="https://s3-alpha-sig.figma.com/img/91e8/000b/d739eeb242a61be793dc4cc2aa42c8dd?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UVfJTRWumBRHNIITfAyT7IUB8gSOLYkZdg8B1WXcggmlCfG9LZZ5yXFGIXBI94fDR42kIl2ps4Xq9uwvieYPotVLI3cafcLPILj~Tos1ByxtXIJSw7KsG9yjdq0GIZJJjSbIdd8EhElKMo6Vrg2ESomEVz9SWqVsByQBCCS7g-znFVoDNE4YW7IMZygDNV8YKScxOwt6fVH2dCnlW3JXxIYeTbg4KIDddragQ481GAONSzjEK6Jg7pofzKc9zky68DNC6NhmRQ4~T2A~lQUJ3MtbGzD0xQ03fshoexpYCn3fD9QabldF7OhdgLeThbg9TngjcqET4C~1IjpFR~-Vxg__"
-              alt="New Brunswick Office Map"
-              width={200}
-              height={100}
-              className="rounded"
-            />
-            
+            <div className="w-24 h-auto">
+              {' '}
+        
+              <img
+                src="https://s3-alpha-sig.figma.com/img/91e8/000b/d739eeb242a61be793dc4cc2aa42c8dd?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UVfJTRWumBRHNIITfAyT7IUB8gSOLYkZdg8B1WXcggmlCfG9LZZ5yXFGIXBI94fDR42kIl2ps4Xq9uwvieYPotVLI3cafcLPILj~Tos1ByxtXIJSw7KsG9yjdq0GIZJJjSbIdd8EhElKMo6Vrg2ESomEVz9SWqVsByQBCCS7g-znFVoDNE4YW7IMZygDNV8YKScxOwt6fVH2dCnlW3JXxIYeTbg4KIDddragQ481GAONSzjEK6Jg7pofzKc9zky68DNC6NhmRQ4~T2A~lQUJ3MtbGzD0xQ03fshoexpYCn3fD9QabldF7OhdgLeThbg9TngjcqET4C~1IjpFR~-Vxg__"
+                alt="Ontario Office Map"
+                className="w-full h-auto rounded"
+              />
+            </div>
           </div>
         </motion.div>
+
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
@@ -190,13 +187,15 @@ function RequestCallback() {
               <p className="text-sm text-blue-600">+1-506-999-7708</p>
               <p className="text-sm text-blue-600">info@admitspot.com</p>
             </div>
-            <img
-              src="https://s3-alpha-sig.figma.com/img/91e8/000b/d739eeb242a61be793dc4cc2aa42c8dd?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UVfJTRWumBRHNIITfAyT7IUB8gSOLYkZdg8B1WXcggmlCfG9LZZ5yXFGIXBI94fDR42kIl2ps4Xq9uwvieYPotVLI3cafcLPILj~Tos1ByxtXIJSw7KsG9yjdq0GIZJJjSbIdd8EhElKMo6Vrg2ESomEVz9SWqVsByQBCCS7g-znFVoDNE4YW7IMZygDNV8YKScxOwt6fVH2dCnlW3JXxIYeTbg4KIDddragQ481GAONSzjEK6Jg7pofzKc9zky68DNC6NhmRQ4~T2A~lQUJ3MtbGzD0xQ03fshoexpYCn3fD9QabldF7OhdgLeThbg9TngjcqET4C~1IjpFR~-Vxg__" // Replace with your New Brunswick map image
-              alt="New Brunswick Office Map"
-              width={200}
-              height={100}
-              className="rounded"
-            />
+            <div className="w-24 h-auto">
+              {' '}
+            
+              <img
+                src="https://s3-alpha-sig.figma.com/img/91e8/000b/d739eeb242a61be793dc4cc2aa42c8dd?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UVfJTRWumBRHNIITfAyT7IUB8gSOLYkZdg8B1WXcggmlCfG9LZZ5yXFGIXBI94fDR42kIl2ps4Xq9uwvieYPotVLI3cafcLPILj~Tos1ByxtXIJSw7KsG9yjdq0GIZJJjSbIdd8EhElKMo6Vrg2ESomEVz9SWqVsByQBCCS7g-znFVoDNE4YW7IMZygDNV8YKScxOwt6fVH2dCnlW3JXxIYeTbg4KIDddragQ481GAONSzjEK6Jg7pofzKc9zky68DNC6NhmRQ4~T2A~lQUJ3MtbGzD0xQ03fshoexpYCn3fD9QabldF7OhdgLeThbg9TngjcqET4C~1IjpFR~-Vxg__"
+                alt="New Brunswick Office Map"
+                className="w-full h-auto rounded"
+              />
+            </div>
           </div>
         </motion.div>
       </div>
